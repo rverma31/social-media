@@ -1,0 +1,47 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.media-wrapper {
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    flex-direction:row;
+    background: #E0E0E0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.media-item {
+    margin: 1%;
+    
+    
+}
+
+.media-icon { 
+	color:white;
+	font-size: 2rem;
+    line-height: 2rem;
+ }
+
+ .media-item > a > .media-icon:hover {
+ 	-webkit-transition:all 0.3s ease-in;
+ 	transition:all 0.5s ease-in;
+ 	transform: scale(1.5) rotate(360deg);
+ }
+
+ 
+
+ .media-item > a > .fa-twitter-square:hover {
+ 	color:#00aced;
+ }
+
+ .media-item > a > .fa-facebook-square:hover {
+ 	color:#3b5998;
+ }
+ .media-item > a > .fa-instagram:hover {
+ 	color:#8a3ab9;
+ }
